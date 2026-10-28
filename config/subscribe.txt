@@ -3,7 +3,39 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
-
+https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
+https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
+https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt
+#https://raw.githubusercontent.com/807080747/zv/refs/heads/main/sese.txt
+#https://raw.githubusercontent.com/a2256569/tv/refs/heads/main/ZB.txt
+#https://raw.githubusercontent.com/aiyakuaile/easy_tv_live/refs/heads/main/temp
+#https://raw.githubusercontent.com/ajqubbs/zhiboyuan/refs/heads/main/gatzb.txt
+#https://raw.githubusercontent.com/alantang1977/iptv-auto/refs/heads/main/my.txt
+#https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.m3u
+#https://raw.githubusercontent.com/fleung49/star/refs/heads/main/mit
+#https://raw.githubusercontent.com/hujingguang/ChinaIPTV/refs/heads/main/cnTV_AutoUpdate.m3u8
+#https://raw.githubusercontent.com/JE668/get-m3u/main/output/source-m3u.txt
+#https://raw.githubusercontent.com/JE668/m3u-checker-max/main/output/live.txt
+#https://raw.githubusercontent.com/jn950/live/main/tv/pllive.txt
+#https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb
+#https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u
+#https://raw.githubusercontent.com/mzky/checklist/refs/heads/master/itvlist.m3u
+#https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/main/my.txt
+#https://raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt
+#https://raw.githubusercontent.com/swhtv/1/refs/heads/main/swtvlive
+#https://raw.githubusercontent.com/TianmuTNT/iptv/main/iptv.txt
+#https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt
+#https://raw.githubusercontent.com/xiongjian83/TvBox/refs/heads/main/live.txt
+#https://raw.githubusercontent.com/xJEYDAin/iptv-scraper/master/output/hk_merged.m3u
+#https://raw.githubusercontent.com/xJEYDAin/iptv-scraper/master/output/all_merged.m3u
+#https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt
+#https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u
+#https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u
+#https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u
+#https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt
 
 
 
