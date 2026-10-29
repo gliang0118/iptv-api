@@ -1,5 +1,6 @@
 fork from <a href="https://github.com/Guovin/iptv-api">https://github.com/Guovin/iptv-api</a>
 
+> 原Readme用不到了，删除了
 
 
 ## 捐赠，请Guovin大佬喝咖啡，不是我哈
