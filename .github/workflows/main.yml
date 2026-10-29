@@ -271,10 +271,9 @@ jobs:
           diff -u /tmp/local-assets.txt /tmp/remote-assets.txt
 
       - name: Deleted old releases
-        uses: Nats-ji/delete-old-releases@v1
+        uses: dev-drprasad/delete-older-releases@v0.3.4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          keep-count: 1
-          keep-old-minor-releases: false
-          remove-tags: true
-          dry-run: false
+          keep_latest: 1          # 保留最新 1 个
+          delete_tags: true       # 删除对应的版本标签
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
