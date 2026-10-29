@@ -1,4 +1,4 @@
-name: Cleanup Workflow Runs
+name: Cleanup-Workflow-Runs
 
 on:
   schedule:
@@ -19,4 +19,7 @@ jobs:
           repository: ${{ github.repository }}
           retain_days: 0
           keep_minimum_runs: 1   # 只保留最新的1次运行记录
-          delete_workflow_pattern: "main.yml" #指定工作流
+          delete_workflow_pattern: |
+            #指定工作流
+            main.yml 
+            Cleanup-Workflow-Runs.yml
