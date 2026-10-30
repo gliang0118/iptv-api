@@ -3,7 +3,6 @@ name: Cleanup Workflow Runs
 on:
   schedule:
     - cron: '0 16 * * *'
-  workflow_dispatch: 
 jobs:
   del_runs:
     runs-on: ubuntu-latest
