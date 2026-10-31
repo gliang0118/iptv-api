@@ -23,6 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     permissions:
+      actions: write
       contents: read
       pages: write
       id-token: write
