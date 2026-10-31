@@ -23,7 +23,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     permissions:
-      actions: write
       contents: read
       pages: write
       id-token: write
@@ -270,7 +269,16 @@ jobs:
             --json assets \
             --jq '.assets[].name' | sort > /tmp/remote-assets.txt
           diff -u /tmp/local-assets.txt /tmp/remote-assets.txt
-
+  
+  cleanup:
+    needs: [generate, publish-release, deploy-pages]
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write     
+      contents: write   
+    steps:
+      # 清理releases历史版本
       - name: Deleted old releases
         uses: dev-drprasad/delete-older-releases@v0.3.4
         with:
@@ -278,7 +286,7 @@ jobs:
           delete_tags: true       # 删除对应的版本标签
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+      # 清理工作流历史记录
       - name: Delete old workflow runs
         if: always() 
         uses: Mattraks/delete-workflow-runs@v2
