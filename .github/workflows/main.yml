@@ -272,7 +272,7 @@ jobs:
   
   cleanup:
     needs: [generate, publish-release, deploy-pages]
-    if: always()
+    if: needs.publish-release.result == 'success'
     runs-on: ubuntu-latest
     permissions:
       actions: write     
@@ -284,6 +284,7 @@ jobs:
         with:
           keep_latest: 1          # 保留最新 1 个
           delete_tags: true       # 删除对应的版本标签
+          delete_tag_pattern: playlist-  # 只匹配本工作流生成的 playlist-* tag
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # 清理工作流历史记录
