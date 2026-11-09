@@ -2,7 +2,8 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-
+https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u
+https://raw.githubusercontent.com/iTCoffe/Collect-iTV/main/Internet_iTV.m3u
 https://raw.githubusercontent.com/bang359/dsj/refs/heads/main/dsjcs1.txt
 https://raw.githubusercontent.com/jn950/live/main/tv/pllive.txt
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
@@ -35,7 +36,6 @@ https://raw.githubusercontent.com/alantang1977/iptv_api/refs/heads/main/output/l
 #https://raw.githubusercontent.com/xJEYDAin/iptv-scraper/master/output/all_merged.m3u
 #https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt
 #https://raw.githubusercontent.com/YueChan/Live/main/GNTV.m3u
-#https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u
 #https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u
 #https://raw.githubusercontent.com/zxmlxw520/5566/refs/heads/main/cjdszb.txt
 
